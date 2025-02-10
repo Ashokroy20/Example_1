@@ -26,7 +26,7 @@ public class ResultController {
 	public List<Results> getAll() {
 		return rs.getAll();
 	}
-	@GetMapping(value = "/Topper") 
+	@GetMapping(value = "/GetTopper") 
 	public Results getTopper() {
 		return rs.getTopper();
 	}
